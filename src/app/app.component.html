@@ -1,0 +1,19 @@
+<div class="grid">
+  <div id="1" class="item" (click)="printCircle(1)">
+    <div [ngClass]="{ 'circle2': printPrev === 1, 'circle': print === 1}"></div>
+  </div>
+  <div id="2" class="item" (click)="printCircle(2)">
+    <div [ngClass]="{ 'circle2': printPrev === 2, 'circle': print === 2}">
+    </div>
+  </div>
+</div>
+<div class="grid">
+  <div id="3" class="item" (click)="printCircle(3)">
+    <div [ngClass]="{ 'circle2': printPrev === 3, 'circle': print === 3}">
+    </div>
+  </div>
+  <div id="4" class="item" (click)="printCircle(4)">
+    <div [ngClass]="{ 'circle2': printPrev === 4, 'circle': print === 4}">
+    </div>
+  </div>
+</div>
